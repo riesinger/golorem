@@ -1,7 +1,10 @@
-# golorem
+# Go Lorem!
 CLI lorem ipsum generator written in Go
 
-Usage:
+## Installing
+`go get -u github.com/arial7/golorem` is your friend! :wink:
+
+## Usage
 ```shell
 $ golorem --words 100
 > 100 random (pseudo-)latin words
