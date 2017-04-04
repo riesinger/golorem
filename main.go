@@ -31,7 +31,7 @@ func generateParagraphs(count, length int, separator string) string {
 		return result
 	} else {
 		for i := 0; i < count; i++ {
-			result += fmt.Sprintf("%s%s", generateWords(10), separator)
+			result += fmt.Sprintf("%s%s", generateWords(length), separator)
 		}
 		return result
 	}
