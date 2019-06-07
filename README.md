@@ -2,7 +2,7 @@
 CLI lorem ipsum generator written in Go
 
 ## Installing
-`go get -u github.com/arial7/golorem` is your friend! :wink:
+`go get -u github.com/riesinger/golorem` is your friend! :wink:
 
 ## Usage
 ```shell
