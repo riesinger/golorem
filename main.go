@@ -15,9 +15,9 @@ func getRandomWord() string {
 }
 
 func generateWords(length int) string {
-	result := "Lorem "
+	result := "Lorem"
 	for i := 0; i < length-1; i++ {
-		result += getRandomWord() + " "
+		result += " " + getRandomWord()
 	}
 	return result
 }
